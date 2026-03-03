@@ -106,26 +106,24 @@
         }
         
         .social-links {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            margin-top: 30px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .social-links p {
+            margin: 10px 0;
         }
         
         a {
+            color: #667eea;
             text-decoration: none;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 12px 30px;
-            border-radius: 25px;
             font-weight: bold;
-            transition: transform 0.3s, box-shadow 0.3s;
-            display: inline-block;
+            transition: color 0.3s;
         }
         
         a:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+            color: #764ba2;
+            text-decoration: underline;
         }
         
         @media (max-width: 600px) {
@@ -135,10 +133,6 @@
             
             h1 {
                 font-size: 2em;
-            }
-            
-            .social-links {
-                flex-direction: column;
             }
         }
     </style>
@@ -172,8 +166,8 @@
     </div>
     
     <div class="social-links">
-        <a href="https://linkedin.com/in/kalla-d-662a2b357" target="_blank">LinkedIn Profile</a>
-        <a href="https://github.com/kalladavid" target="_blank">GitHub Projects</a>
+        <p><a href="https://linkedin.com/in/kalla-d-662a2b357" target="_blank">LinkedIn: linkedin.com/in/kalla-d-662a2b357</a></p>
+        <p><a href="https://github.com/kalladavid" target="_blank">GitHub: github.com/kalladavid</a></p>
     </div>
 </div>
 
